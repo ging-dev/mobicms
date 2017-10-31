@@ -1,18 +1,42 @@
 {
   "name": "mobicms/mobicms",
-  "description": "Mobile Content Management System",
-  "homepage": "http://mobicms.net/",
-  "license": "GPL-3",
-  "minimum-stability": "dev",
-  "config": {
-    "vendor-dir": "system/vendor"
+  "description": "mobiCMS - Content Management System",
+  "type": "project",
+  "homepage": "https://mobicms.org",
+  "license": "GPL-3.0",
+  "keywords": [
+    "mobicms",
+    "cms",
+    "mobile"
+  ],
+  "support": {
+    "source": "https://github.com/mobicms/mobicms",
+    "forum": "https://mobicms.org/forum"
   },
-  "require": {
-    "php": "^5.5 || ^7.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Mobicms\\": "system/mobicms/"
+  "authors": [
+    {
+      "name": "Oleg Kasyanov",
+      "role": "Team Lead, Developer",
+      "homepage": "http://mobicms.net",
+      "email": "dev@mobicms.net"
+    },
+    {
+      "name": "mobiCMS Contributors",
+      "homepage": "https://github.com/mobicms/mobicms/graphs/contributors"
     }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.1",
+    "http-interop/http-middleware": "0.4.1",
+    "mobicms-modules/johncms-modules": "dev-develop",
+    "mobicms/mobicms-interface": "dev-develop"
+  },
+  "require-dev": {
+    "mobicms/mobicms-install": "dev-develop"
   }
 }

@@ -1,5 +1,23 @@
-﻿# [mobiCMS](http://mobicms.net) Changelog
-This list contains only most important changes.  
-Detailed change in the [repository log](https://github.com/mobicms/mobicms/commits/).
+# Changelog
+All notable changes to this project will be documented in this file.  
+Detailed change in the [repository log](https://github.com/mobicms/mobicms/commits).
 
-### 0.1.0 `under construction`
+## 0.1.0 - Unreleased 
+
+### Added
+- Nothing
+  
+### Changed
+- Nothing
+
+### Deprecated
+- Nothing
+  
+### Removed
+- Nothing
+
+### Fixed
+- Nothing
+
+### Security
+- Nothing

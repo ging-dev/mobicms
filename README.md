@@ -1,8 +1,30 @@
-# [mobiCMS 0.1.0](http://mobicms.net)
+# [mobiCMS](http://mobicms.org)
 
-Mobile Content Management System. 
+Система управления сайтом mobiCMS.
 
-## System Requirements
-- PHP 5.5+ or PHP 7
-- MySQL (InnoDB support required) 5.1 +
-- .htaccess support
+## Системные требования
+- Версия PHP не ниже 7.0
+- MySQL версии не ниже 5.5
+- Поддержка .htaccess
+
+## Установка из репозитория
+1. У Вас должен иметься [Composer](https://getcomposer.org/), компьютер должен быть подключен к Internet.  
+2. В консоли наберите команду:  `composer install` установите все зависимости.
+3. Создайте базу данных
+4. Импортируйте в созданную базу **все** файлы из папки `/install/sql`
+5. Откройте папку `system/config/custom/`
+6. Скопируйте файл `database.local.php.dist` в новый файл с именем `database.local.php` и запишите в него реквизиты доступа к базе данных.
+
+## Включение режима отладки
+На период разработки и отладки кода Вам могут понадобитться расширенные сообщения об ошибках.
+Также, может мешать кэш, который полезно на время отключить. 
+1. Скопируйте файл `development.local.php.dist` в новый файл с именем `development.local.php`.
+Данный файл нужен только на период разработки и отдадки (включает режим отладки и отключает кэш).
+На рабочем сайте этот файл нужно удалить.
+
+## Наши ссылки
+- [mobiCMS](https://mobicms.org) оф. сайт проекта mobiCMS
+- [JohnCMS](https://johncms.com) оф. сайт проекта JohnCMS
+- [Facebook](https://www.facebook.com/mobicms)
+- [Twitter](https://twitter.com/mobicms)
+- [Vkontakte](https://vk.com/mobicms)

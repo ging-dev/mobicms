@@ -1,0 +1,10 @@
+<?php
+
+return [
+    'database' => [
+        'dbhost' => 'localhost',
+        'dbname' => 'mobicms',
+        'dbuser' => 'root',
+        'dbpass' => '',
+    ],
+];
