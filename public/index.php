@@ -11,7 +11,19 @@
 const DEBUG = true;
 
 chdir(dirname(__DIR__));
-require 'system/bootstrap.php';
+
+// Check the current PHP version
+if (version_compare(PHP_VERSION, '7.1', '<')) {
+    die('<h1 style="color: #dd0000">ERROR: outdated version of PHP</h1>');
+}
+
+// If there are no dependencies, we stop the script and displays an error
+if (! is_file('vendor/autoload.php')) {
+    die('<h3 style="color: #dd0000">ERROR: missing dependencies</h3>');
+}
+
+require 'system/constants.php';
+require 'vendor/autoload.php';
 
 call_user_func(function () {
     /** @var \Interop\Container\ContainerInterface $container */
