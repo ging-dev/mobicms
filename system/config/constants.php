@@ -13,10 +13,10 @@ define('START_TIME', microtime(true));
 const DS = DIRECTORY_SEPARATOR;
 
 // System directories
-define('PATH_ROOT', dirname(__DIR__) . DS);
-const PATH_CACHE = __DIR__ . DS . 'cache' . DS;
-const PATH_CONFIG = __DIR__ . DS . 'config' . DS;
-const PATH_LOG = __DIR__ . DS . 'logs' . DS;
+define('PATH_ROOT', dirname(__DIR__, 2) . DS);
+const PATH_CACHE = PATH_ROOT . 'system' . DS . 'cache' . DS;
+const PATH_LOG = PATH_ROOT . 'system' . DS . 'logs' . DS;
+const PATH_CONFIG = __DIR__ . DS;
 
 // Public directories
 const PATH_PUBLIC = PATH_ROOT . 'public' . DS;

@@ -22,7 +22,7 @@ if (! is_file('vendor/autoload.php')) {
     die('<h3 style="color: #dd0000">ERROR: missing dependencies</h3>');
 }
 
-require 'system/constants.php';
+require 'system/config/constants.php';
 require 'vendor/autoload.php';
 
 call_user_func(function () {
