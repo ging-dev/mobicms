@@ -13,16 +13,12 @@ define('START_TIME', microtime(true));
 const DS = DIRECTORY_SEPARATOR;
 
 // System directories
-define('PATH_ROOT', dirname(__DIR__, 2) . DS);
-const PATH_CACHE = PATH_ROOT . 'system' . DS . 'cache' . DS;
-const PATH_LOG = PATH_ROOT . 'system' . DS . 'logs' . DS;
-const PATH_CONFIG = __DIR__ . DS;
-
-// Public directories
-const PATH_PUBLIC = PATH_ROOT . 'public' . DS;
-const PATH_ASSETS = PATH_PUBLIC . 'vendor' . DS;
-const PATH_UPLOAD = PATH_PUBLIC . 'uploads' . DS;
+define('MOBICMS_ROOT', dirname(__DIR__, 2) . DS);
+const MOBICMS_CACHE = MOBICMS_ROOT . 'system' . DS . 'cache' . DS;
+const MOBICMS_CONFIG = __DIR__ . DS;
+const MOBICMS_LOGS = MOBICMS_ROOT . 'system' . DS . 'logs' . DS;
+const MOBICMS_PUBLIC = MOBICMS_ROOT . 'public' . DS;
 
 // System files
-const FILE_CONFIG_CACHE = PATH_CACHE . 'system-config-cache.php';
-const FILE_CONFIG_ROUTES = PATH_CONFIG . 'routes.php';
+const MOBICMS_CONFIG_CACHE_FILE = MOBICMS_CACHE . 'system-config-cache.php';
+const MOBICMS_CONFIG_ROUTES_FILE = MOBICMS_CONFIG . 'routes.php';
