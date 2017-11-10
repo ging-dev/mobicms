@@ -1,10 +1,10 @@
 install
-vendor
-
-system/cache
-!system/cache/.gitkeep
+public/vendor
 system/config/custom/*.local.php
 system/config/packages/*
 !system/config/packages/.gitkeep
-system/logs/*
-!system/logs/.gitkeep
+system/data/cache/*
+!system/data/cache/.gitkeep
+system/data/logs/*
+!system/data/logs/.gitkeep
+system/vendor

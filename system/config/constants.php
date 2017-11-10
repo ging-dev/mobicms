@@ -8,17 +8,18 @@
  * @copyright   Copyright (C) mobiCMS Community
  */
 
+// Profiling
 define('START_MEMORY', memory_get_usage());
 define('START_TIME', microtime(true));
-const DS = DIRECTORY_SEPARATOR;
 
 // System directories
-define('MOBICMS_ROOT', dirname(__DIR__, 2) . DS);
-const MOBICMS_CACHE = MOBICMS_ROOT . 'system' . DS . 'cache' . DS;
-const MOBICMS_CONFIG = __DIR__ . DS;
-const MOBICMS_LOGS = MOBICMS_ROOT . 'system' . DS . 'logs' . DS;
-const MOBICMS_PUBLIC = MOBICMS_ROOT . 'public' . DS;
+define('MOBICMS_ROOT_DIR', dirname(__DIR__, 2) . DIRECTORY_SEPARATOR);
+const MOBICMS_SYSTEM_DIR = MOBICMS_ROOT_DIR . 'system' . DIRECTORY_SEPARATOR;
+const MOBICMS_CACHE_DIR = MOBICMS_SYSTEM_DIR . 'data' . DIRECTORY_SEPARATOR . 'cache' . DIRECTORY_SEPARATOR;
+const MOBICMS_LOGS_DIR = MOBICMS_SYSTEM_DIR . 'data' . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR;
+const MOBICMS_PUBLIC_DIR = MOBICMS_ROOT_DIR . 'public' . DIRECTORY_SEPARATOR;
+const MOBICMS_CONFIG_DIR = __DIR__ . DIRECTORY_SEPARATOR;
 
 // System files
-const MOBICMS_CONFIG_CACHE_FILE = MOBICMS_CACHE . 'system-config-cache.php';
-const MOBICMS_CONFIG_ROUTES_FILE = MOBICMS_CONFIG . 'routes.php';
+const MOBICMS_CONFIG_CACHE_FILE = MOBICMS_CACHE_DIR . 'system-config-cache.php';
+const MOBICMS_CONFIG_ROUTES_FILE = MOBICMS_CONFIG_DIR . 'routes.php';

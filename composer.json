@@ -26,7 +26,8 @@
     }
   ],
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "vendor-dir": "system/vendor"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
