@@ -28,7 +28,7 @@ require 'system/vendor/autoload.php';
 
 call_user_func(function () {
     /** @var \Interop\Container\ContainerInterface $container */
-    $container = Mobicms\Core\Container::getInstance();
+    $container = Mobicms\System\Container::getInstance();
 
     /** @var \Zend\Expressive\Application $app */
     $app = $container->get(\Zend\Expressive\Application::class);

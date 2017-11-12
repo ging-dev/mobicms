@@ -34,9 +34,9 @@
   "require": {
     "php": "^7.1",
     "http-interop/http-middleware": "0.4.1",
-    "mobicms/mobicms-package": "dev-develop"
+    "mobicms/system-metapackage": "dev-develop"
   },
   "require-dev": {
-    "mobicms/mobicms-install": "dev-develop"
+    "mobicms/system-install": "dev-develop"
   }
 }
