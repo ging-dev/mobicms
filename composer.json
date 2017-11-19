@@ -35,9 +35,7 @@
     "php": "^7.1",
     "http-interop/http-middleware": "0.4.1",
     "mobicms-modules/johncms": "dev-develop",
-    "mobicms/system-checkpoint": "dev-develop",
     "mobicms/system-composer": "dev-develop",
-    "mobicms/system-core": "dev-develop",
     "mobicms/system-foundation": "dev-develop",
     "mobicms/system-templates": "dev-develop"
   },
@@ -51,19 +49,11 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/mobicms/system-core.git"
-    },
-    {
-      "type": "git",
       "url": "https://github.com/mobicms/system-composer.git"
     },
     {
       "type": "git",
       "url": "https://github.com/mobicms/system-install.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/batumibiz/system-checkpoint.git"
     },
     {
       "type": "git",
