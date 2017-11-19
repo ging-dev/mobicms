@@ -35,6 +35,7 @@
     "php": "^7.1",
     "http-interop/http-middleware": "0.4.1",
     "mobicms-modules/johncms": "dev-develop",
+    "mobicms/system-checkpoint": "dev-develop",
     "mobicms/system-composer": "dev-develop",
     "mobicms/system-core": "dev-develop",
     "mobicms/system-foundation": "dev-develop",
