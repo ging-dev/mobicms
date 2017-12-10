@@ -33,7 +33,11 @@
   "require": {
     "php": "^7.1",
     "http-interop/http-middleware": "0.4.1",
-    "mobicms/foundation": "dev-develop"
+    "mobicms-modules/johncms": "dev-develop",
+    "mobicms/foundation": "dev-develop",
+    "mobicms/system-composer": "dev-develop",
+    "mobicms/system-core": "dev-develop",
+    "mobicms/system-templates": "dev-develop"
   },
   "require-dev": {
     "mobicms/install": "dev-develop"
