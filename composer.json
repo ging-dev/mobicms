@@ -37,31 +37,5 @@
   },
   "require-dev": {
     "mobicms/install": "dev-develop"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/mobicms/foundation.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/mobicms/install.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/mobicms/system-composer.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/mobicms/system-core.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/mobicms/system-templates.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/mobicms-modules/johncms.git"
-    }
-  ]
+  }
 }
