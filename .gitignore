@@ -1,5 +1,6 @@
 /install/
-/public/vendor/
+/public/assets/
+/public/data/
 /vendor/
 /config/packages/
 /data/cache/
