@@ -39,9 +39,8 @@
   "require": {
     "php": "^7.1",
     "mobicms-modules/johncms": "dev-develop",
-    "mobicms/foundation": "dev-develop",
+    "mobicms/system": "dev-develop",
     "mobicms/system-composer": "dev-develop",
-    "mobicms/system-core": "dev-develop",
     "mobicms/system-templates": "dev-develop"
   },
   "require-dev": {
