@@ -41,7 +41,8 @@
     "mobicms-modules/johncms": "dev-develop",
     "mobicms/system": "dev-develop",
     "mobicms/system-composer": "dev-develop",
-    "mobicms/system-templates": "dev-develop"
+    "mobicms/system-templates": "dev-develop",
+    "psr/http-server-middleware": "^1.0"
   },
   "require-dev": {
     "mobicms/install": "dev-develop"
