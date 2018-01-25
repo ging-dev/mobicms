@@ -14,9 +14,9 @@
 
 3. Создайте базу данных
 
-4. Импортируйте в созданную базу все файлы из папки `/install/resources/sql/`
+4. Импортируйте в созданную базу все файлы из папки `/install/sql/`
 
-5. Из папки `/install/resources/config/` cкопируйте файл `database.local.php.dist`
+5. Из папки `/install/config/` cкопируйте файл `database.local.php.dist`
 в папку `/system/config/custom/`, файл с именем `database.local.php` и запишите в него реквизиты доступа к базе данных.
 
 6. Если приложение установлено не в корневом каталоге виртуального хоста (например myapp.com/mobicms/),
