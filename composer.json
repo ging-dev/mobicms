@@ -3,7 +3,7 @@
   "description": "mobiCMS - Content Management System",
   "type": "project",
   "homepage": "https://mobicms.org",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "mobicms",
     "cms",
