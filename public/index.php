@@ -8,15 +8,17 @@
  * @copyright   Copyright (C) mobiCMS Community
  */
 
+declare(strict_types=1);
+
 // Enable debug mode
 const DEBUG = true;
-
-chdir(dirname(__DIR__));
 
 // Check the current PHP version
 if (version_compare(PHP_VERSION, '7.1', '<')) {
     die('<h1 style="color: #dd0000">ERROR: outdated version of PHP</h1>');
 }
+
+chdir(dirname(__DIR__));
 
 // If there are no dependencies, we stop the script and displays an error
 if (! is_file('vendor/autoload.php')) {
@@ -26,11 +28,11 @@ if (! is_file('vendor/autoload.php')) {
 require 'config/constants.php';
 require 'vendor/autoload.php';
 
-call_user_func(function () {
+(function () {
     /** @var \Interop\Container\ContainerInterface $container */
     $container = Mobicms\System\Container::getInstance();
 
     /** @var \Zend\Expressive\Application $app */
     $app = $container->get(\Zend\Expressive\Application::class);
     $app->run();
-});
+})();
