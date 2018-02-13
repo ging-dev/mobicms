@@ -363,7 +363,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mobicms-modules/johncms.git",
-                "reference": "878fa21cb2be728e1b93987b181b3d742e5b7c74"
+                "reference": "382647f8e16b7fbb9216d3ab9570d2947ebc6426"
             },
             "require": {
                 "php": "^7.0",
@@ -395,7 +395,7 @@
             ],
             "description": "Compatibility package for modules ported from JohnCMS",
             "homepage": "https://mobicms.org",
-            "time": "2018-02-08T10:48:08+00:00"
+            "time": "2018-02-13T10:02:30+00:00"
         },
         {
             "name": "mobicms/system",
@@ -1722,12 +1722,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mobicms/install.git",
-                "reference": "9b186fb5bdeb79c42fbd28be68665acdbdfd642c"
+                "reference": "1ffefd40a8774d4ae96d7adaa487da3ea6b1b636"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mobicms/install/zipball/9b186fb5bdeb79c42fbd28be68665acdbdfd642c",
-                "reference": "9b186fb5bdeb79c42fbd28be68665acdbdfd642c",
+                "url": "https://api.github.com/repos/mobicms/install/zipball/1ffefd40a8774d4ae96d7adaa487da3ea6b1b636",
+                "reference": "1ffefd40a8774d4ae96d7adaa487da3ea6b1b636",
                 "shasum": ""
             },
             "require": {
@@ -1754,7 +1754,7 @@
             "keywords": [
                 "mobicms"
             ],
-            "time": "2017-12-09T18:14:47+00:00"
+            "time": "2018-01-25T09:48:18+00:00"
         }
     ],
     "aliases": [],
