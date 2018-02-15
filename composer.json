@@ -33,6 +33,10 @@
   "repositories": [
     {
       "type": "git",
+      "url": "git@gitlab.com:mobicms/system/system-foundation.git"
+    },
+    {
+      "type": "git",
       "url": "git@github.com:mobicms-modules/johncms.git"
     }
   ],
@@ -41,6 +45,7 @@
     "mobicms-modules/johncms": "dev-develop",
     "mobicms/system": "dev-develop",
     "mobicms/system-composer": "dev-develop",
+    "mobicms/system-foundation": "dev-develop",
     "mobicms/system-templates": "dev-develop",
     "psr/http-server-middleware": "^1.0"
   },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "866848f7c741d707cecfdee638cd93f7",
+    "content-hash": "f79c773848a6d171f3fc4b6b80cc473c",
     "packages": [
         {
             "name": "aura/router",
@@ -511,6 +511,47 @@
                 "plugin"
             ],
             "time": "2018-01-13T07:40:50+00:00"
+        },
+        {
+            "name": "mobicms/system-foundation",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:mobicms/system/system-foundation.git",
+                "reference": "7fec96f77eed014bd426f2ce5e1a259ace0328a1"
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mobicms\\System\\Foundation\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Oleg Kasyanov",
+                    "homepage": "http://mobicms.net",
+                    "email": "dev@mobicms.net"
+                },
+                {
+                    "name": "mobiCMS Contributors",
+                    "homepage": "https://github.com/mobicms/system-foundation/graphs/contributors"
+                }
+            ],
+            "description": "mobiCMS config, container and interfaces",
+            "homepage": "https://github.com/mobicms/system-foundation",
+            "keywords": [
+                "config",
+                "container",
+                "interfaces",
+                "mobicms"
+            ],
+            "time": "2018-02-12T10:29:27+00:00"
         },
         {
             "name": "mobicms/system-templates",
@@ -1763,6 +1804,7 @@
         "mobicms-modules/johncms": 20,
         "mobicms/system": 20,
         "mobicms/system-composer": 20,
+        "mobicms/system-foundation": 20,
         "mobicms/system-templates": 20,
         "mobicms/install": 20
     },
