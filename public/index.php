@@ -29,8 +29,8 @@ require 'config/constants.php';
 require 'vendor/autoload.php';
 
 (function () {
-    /** @var \Interop\Container\ContainerInterface $container */
-    $container = Mobicms\System\Container::getInstance();
+    /** @var \Psr\Container\ContainerInterface $container */
+    $container = \Mobicms\System\Foundation\ContainerLoader::getContainer();
 
     /** @var \Zend\Expressive\Application $app */
     $app = $container->get(\Zend\Expressive\Application::class);
