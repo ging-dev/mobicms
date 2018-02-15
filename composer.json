@@ -33,21 +33,15 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git@gitlab.com:mobicms/system/system-foundation.git"
-    },
-    {
-      "type": "git",
       "url": "git@github.com:mobicms-modules/johncms.git"
     }
   ],
   "require": {
     "php": "^7.1",
     "mobicms-modules/johncms": "dev-develop",
-    "mobicms/system": "dev-develop",
     "mobicms/system-composer": "dev-develop",
-    "mobicms/system-foundation": "dev-develop",
-    "mobicms/system-templates": "dev-develop",
-    "psr/http-server-middleware": "^1.0"
+    "mobicms/system-foundation": "^0.1.0",
+    "mobicms/system-templates": "dev-develop"
   },
   "require-dev": {
     "mobicms/install": "dev-develop"
