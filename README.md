@@ -30,9 +30,8 @@
 Данный файл нужен только на период разработки и отдадки (включает режим отладки и отключает кэш).
 На рабочем сайте этот файл нужно удалить.
 
-## Наши ссылки
-- [mobiCMS](https://mobicms.org) оф. сайт проекта mobiCMS
-- [JohnCMS](https://johncms.com) оф. сайт проекта JohnCMS
-- [Facebook](https://www.facebook.com/mobicms)
-- [Twitter](https://twitter.com/mobicms)
-- [Vkontakte](https://vk.com/mobicms)
+## Our links
+- [**mobicms.org**](https://mobicms.org) - our project website and support forum
+- [**Facebook**](https://www.facebook.com/mobicms)
+- [**Vkontakte**](https://vk.com/mobicms)
+- [**Twitter**](https://twitter.com/mobicms)
