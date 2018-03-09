@@ -25,9 +25,6 @@
       "homepage": "https://github.com/mobicms/mobicms/graphs/contributors"
     }
   ],
-  "config": {
-    "sort-packages": true
-  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "repositories": [
@@ -38,12 +35,14 @@
   ],
   "require": {
     "php": "^7.1",
+    "roave/security-advisories": "dev-master",
     "mobicms-modules/johncms": "dev-develop",
+    "mobicms/system": "dev-develop",
     "mobicms/system-composer": "^0.1.0",
-    "mobicms/system-foundation": "^0.1.0",
     "mobicms/system-templates": "dev-develop"
   },
   "require-dev": {
+    "filp/whoops": "^2.1",
     "mobicms/install": "dev-develop"
   }
 }
