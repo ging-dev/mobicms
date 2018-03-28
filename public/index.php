@@ -14,7 +14,7 @@ declare(strict_types=1);
 const DEBUG = true;
 
 // Check the current PHP version
-if (version_compare(PHP_VERSION, '7.1', '<')) {
+if (PHP_VERSION_ID < 70100) {
     die('<h1 style="color: #dd0000">ERROR: outdated version of PHP</h1>');
 }
 
