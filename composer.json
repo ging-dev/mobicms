@@ -30,16 +30,21 @@
   "repositories": [
     {
       "type": "git",
+      "url": "git@gitlab.com:mobicms/draft/assets.git"
+    },
+    {
+      "type": "git",
       "url": "git@github.com:mobicms-modules/johncms.git"
     }
   ],
   "require": {
     "php": "^7.1",
     "roave/security-advisories": "dev-master",
-    "mobicms-modules/johncms": "dev-develop",
+    "mobicms/assets": "dev-develop",
     "mobicms/system": "dev-develop",
     "mobicms/system-composer": "^0.1.0",
-    "mobicms/system-templates": "dev-develop"
+    "mobicms/system-templates": "dev-develop",
+    "mobicms-modules/johncms": "dev-develop"
   },
   "require-dev": {
     "filp/whoops": "^2.1",
