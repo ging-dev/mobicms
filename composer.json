@@ -39,7 +39,6 @@
   ],
   "require": {
     "php": "^7.1",
-    "roave/security-advisories": "dev-master",
     "mobicms/assets": "dev-develop",
     "mobicms/system": "dev-develop",
     "mobicms/system-composer": "^0.1.0",
@@ -47,6 +46,7 @@
     "mobicms-modules/johncms": "dev-develop"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-master",
     "filp/whoops": "^2.1",
     "mobicms/install": "dev-develop"
   }
