@@ -30,11 +30,11 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git@gitlab.com:mobicms/draft/assets.git"
+      "url": "git@gitlab.com:mobicms/draft/mobicms-assets.git"
     },
     {
       "type": "git",
-      "url": "git@github.com:mobicms-modules/johncms.git"
+      "url": "git@gitlab.com:mobicms/draft/mobicms-modules-johncms.git"
     }
   ],
   "require": {
