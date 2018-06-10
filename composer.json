@@ -42,7 +42,6 @@
     "mobicms/assets": "dev-develop",
     "mobicms/system": "dev-develop",
     "mobicms/component-installer": "^0.1.0",
-    "mobicms/system-templates": "dev-develop",
     "mobicms-modules/johncms": "dev-develop"
   },
   "require-dev": {
