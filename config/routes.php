@@ -7,4 +7,8 @@ $app->get('/', [
     Johncms\Modules\HomePage\HomepageHandler::class,
 ], 'home');
 
-//$app->get('/news[/]', Johncms\App\NewsAction::class, 'news');
+$app->get('/test[/]', [
+    Mobicms\Modules\Test\TestPageHandler::class
+], 'test');
+
+//$app->get('/test[/]', Mobicms\Modules\Test\TestPageHandler::class, 'test');

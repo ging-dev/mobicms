@@ -35,10 +35,6 @@
     {
       "type": "git",
       "url": "git@gitlab.com:mobicms/draft/mobicms-modules-johncms.git"
-    },
-    {
-      "type": "git",
-      "url": "git@gitlab.com:mobicms/draft/mobicms-modules-test.git"
     }
   ],
   "require": {
