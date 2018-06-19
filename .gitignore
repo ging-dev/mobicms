@@ -1,6 +1,8 @@
 /config/custom/*.local.php
-/config/packages/**
-!/config/packages/.gitkeep
+/config/system/components/**
+!/config/system/components/.gitkeep
+/config/system/routes/**
+!/config/system/routes/.gitkeep
 
 /data/cache/**
 !/data/cache/.gitkeep
