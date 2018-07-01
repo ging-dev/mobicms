@@ -41,7 +41,7 @@
     "php": "^7.1",
     "mobicms/assets": "dev-develop",
     "mobicms/system": "dev-develop",
-    "mobicms/component-installer": "dev-develop",
+    "mobicms/component-installer": "^0.3",
     "mobicms-modules/johncms": "dev-develop",
     "mobicms-modules/test": "dev-develop"
   },
