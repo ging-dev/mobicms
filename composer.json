@@ -27,19 +27,9 @@
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@gitlab.com:mobicms/draft/mobicms-assets.git"
-    },
-    {
-      "type": "git",
-      "url": "git@gitlab.com:mobicms/draft/mobicms-modules-johncms.git"
-    }
-  ],
   "require": {
     "php": "^7.1",
-    "mobicms/assets": "dev-develop",
+    "mobicms/asset": "dev-develop",
     "mobicms/system": "dev-develop",
     "mobicms/component-installer": "^0.3",
     "mobicms-modules/johncms": "dev-develop",
